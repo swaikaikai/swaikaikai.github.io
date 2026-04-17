@@ -6,3 +6,6 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   base: '/', // 這裡是主站根目錄
 })
+
+
+
