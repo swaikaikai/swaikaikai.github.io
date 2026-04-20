@@ -4,7 +4,7 @@ import {
   ChevronRight, 
   Terminal, 
   Network, 
-  Cpu, 
+  Layout, 
   Mail 
 } from 'lucide-react';
 
@@ -22,23 +22,23 @@ const App = () => {
     {
       title: "Nav2 Sequence Designer",
       desc: "專為 FIH_Humanoid_AMR 打造的導航時序圖設計工具，優化自動導航開發流程與邏輯驗證。",
-      link: "https://kanmingkai.github.io/nav2-sequence-designer/",
+      link: "https://swaikaikai.github.io/nav2-sequence-designer/",
       tag: "ROBOTICS / TOOLING",
       icon: <Terminal className="w-5 h-5" />
     },
     {
       title: "ROS Topology Visualizer",
       desc: "自動解析 ROS 節點通訊關係，快速產生訊號拓圖，協助分析複雜的 AMR 通訊架構。",
-      link: "https://kanmingkai.github.io/ros-topology-visualizer/",
+      link: "https://swaikaikai.github.io/ros-topology-visualizer/",
       tag: "ROS / VISUALIZATION",
       icon: <Network className="w-5 h-5" />
     },
     {
-      title: "Firmware Interaction Lib",
-      desc: "高效能嵌入式系統通訊庫，支援多種感測器協議整合，目前持續開發維護中。",
-      link: "#",
-      tag: "EMBEDDED / C++",
-      icon: <Cpu className="w-5 h-5" />
+      title: "Prussian Tool Suite",
+      desc: "專為技術簡報打造的工具集，提供高效的排版與視覺化功能，協助快速建立專業的技術展示內容。",
+      link: "https://kanmingkai.github.io/prussian-tool-suite/",
+      tag: "PRESENTATION / TOOLING",
+      icon: <Layout className="w-5 h-5" />
     }
   ];
 
@@ -55,7 +55,7 @@ const App = () => {
             className="px-4 py-1.5 rounded-sm text-sm font-semibold tracking-widest text-white uppercase"
             style={{ backgroundColor: colors.navy }}
           >
-            kanmingkai.github.io
+            swaikaikai.github.io
           </div>
         </div>
       </header>
