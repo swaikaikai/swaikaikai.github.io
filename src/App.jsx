@@ -22,14 +22,14 @@ const App = () => {
     {
       title: "Nav2 Sequence Designer",
       desc: "專為 FIH_Humanoid_AMR 打造的導航時序圖設計工具，優化自動導航開發流程與邏輯驗證。",
-      link: "https://swaikaikai.github.io/nav2-sequence-designer/",
+      link: "https://kanmingkai.github.io/nav2-sequence-designer/",
       tag: "ROBOTICS / TOOLING",
       icon: <Terminal className="w-5 h-5" />
     },
     {
       title: "ROS Topology Visualizer",
       desc: "自動解析 ROS 節點通訊關係，快速產生訊號拓圖，協助分析複雜的 AMR 通訊架構。",
-      link: "https://swaikaikai.github.io/ros-topology-visualizer/",
+      link: "https://kanmingkai.github.io/ros-topology-visualizer/",
       tag: "ROS / VISUALIZATION",
       icon: <Network className="w-5 h-5" />
     },
