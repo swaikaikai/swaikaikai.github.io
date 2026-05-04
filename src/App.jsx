@@ -9,6 +9,7 @@ import {
   Cpu,
   Bot,
   MapPin,
+  Workflow,
 } from 'lucide-react';
 import heroImg from './assets/hero.png';
 
@@ -51,6 +52,13 @@ const projects = [
     link: 'https://kanmingkai.github.io/ros-topology-visualizer/',
     tag: 'ROS / VISUALIZATION',
     icon: <Network className="w-5 h-5" />,
+  },
+  {
+    title: 'Global Planner Viewer',
+    desc: '視覺化 ROS 程式的 callback 呼叫鏈，自動產生完整的 sim link 圖，讓開發者快速掌握程式各模組間的觸發與串接關係。',
+    link: 'https://kanmingkai.github.io/ros-topology-visualizer-callback/globalplanner_viewer.html',
+    tag: 'ROS / CALLBACK',
+    icon: <Workflow className="w-5 h-5" />,
   },
   {
     title: 'Prussian Tool Suite',
